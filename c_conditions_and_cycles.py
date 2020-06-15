@@ -94,9 +94,3 @@ for m_d in range(len(month_days)):
         print(constellation[0])
         break
 print('-------------------- 根据输入月份和日期判断星座(while中的if嵌套) --------------------')
-num = 0
-while month_days[num] < (input_month, input_day):
-    if input_month == 12 and input_day > 22:
-        break
-    num += 1
-print(constellation[num])
